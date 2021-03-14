@@ -1,14 +1,14 @@
 import * as firebase from 'firebase';
 
 const firebaseConfig = {
-	apiKey: "AIzaSyBcUb8ARlN-O-qSZCC92z6zMDL6Mncjx-A",
-	authDomain: "react-course-2-expensify.firebaseapp.com",
-	databaseURL: "https://react-course-2-expensify-default-rtdb.firebaseio.com",
-	projectId: "react-course-2-expensify",
-	storageBucket: "react-course-2-expensify.appspot.com",
-	messagingSenderId: "482033928247",
-	appId: "1:482033928247:web:e68b7ccf045f2f313617b2",
-	measurementId: "G-4DGVDSC1L4"
+	apiKey: process.env.FIREBASE_API_KEY,
+	authDomain: process.env.FIREBASE_AUTH_DOAMIN,
+	databaseURL: process.env.FIREBASE_DATABASE_URL,
+	projectId: process.env.FIREBASE_PROJECT_ID,
+	storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
+	messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,
+	appId: process.env.FIREBASE_APP_ID,
+	measurementId: process.env.FIREBASE_MEASUREMENT_ID
 };
 
 firebase.initializeApp(firebaseConfig);
