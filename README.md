@@ -1,7 +1,7 @@
 # React Course
 
-[The Complete React Developer Course (w/ Hooks and Redux)](https://www.udemy.com/course/react-2nd-edition/) by Andrew Mead
-[Live project] (https://react-course-2-expensify-aac.herokuapp.com/)
+- [The Complete React Developer Course (w/ Hooks and Redux)](https://www.udemy.com/course/react-2nd-edition/) by Andrew Mead
+- [Live project](https://react-course-2-expensify-aac.herokuapp.com/)
 
 ## Tools
 - Webpack - Modular bundler
